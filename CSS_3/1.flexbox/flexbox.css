@@ -1,0 +1,47 @@
+.container{
+    background-color: antiquewhite;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    /*
+      justify-content: center;
+      align-items: center;
+     1.flex-direction: column;
+     2.flex-direction: row;
+     3.flex-direction: column-reverse;
+     4.flex-direction: row-reverse;
+
+     . flex-wrap: flex;  //use for responsivness of website
+     */
+}
+
+/* justify content: main axis ke around kaam krta hai main axis ko flex-box decide krta hai
+*/
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px; 
+}
+
+.first{
+    background-color: chocolate;;
+}
+
+.second{
+    background-color: chartreuse;
+}
+
+.third{
+    background-color: crimson;
+  /*  align-self: flex-end;  // Use when   align-items: center;
+    justify-content: center;
+    */
+}
+
+.fourth{
+    background-color: darkmagenta;
+}

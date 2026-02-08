@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    cursor: pointer;
+    transition-property: background-color;
+   /* transition-property: width; (or height)*/
+    transition-duration: 3s;
+/* if we have more than one transition-property then =>  transition-property:all;  */
+    transform: rotate(30deg);
+}
+
+.box:hover{
+    background-color: chartreuse;
+  /*  width: 400px; */
+}

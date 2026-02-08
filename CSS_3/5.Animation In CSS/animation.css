@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 5s;
+    
+}
+
+@keyframes moving {
+    from{
+        background-color: aqua;
+        top: 10px;
+        left: 10px;
+    }
+    to{
+        background-color: brown;
+        top: 10px;
+        left: 1000px;
+
+    }
+    
+}

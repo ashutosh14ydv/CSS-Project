@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 40px;
+    background-color: aquamarine;
+}
+
+      /* Applying Responsive website CSS    */
+@media  screen and (max-width:250px) {
+    .container{
+        height: 250px;
+        width: 250px;
+        font-size: 30px;
+        background-color: brown;
+    }  
+}  

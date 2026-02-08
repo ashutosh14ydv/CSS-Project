@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    animation: moving;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(157, 235, 11);
+    font-size: 20px;
+}
+
+@keyframes moving {
+    from{
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    to{
+          transform: rotate(360deg) translate(200px) rotate(-360deg);
+    }
+    
+}
